@@ -21,6 +21,16 @@ int main()
 
         if (code == 1)
         {
+            printf("qingshuruyaotianjiademinganzifu\n");
+            char m;
+            scanf("%c",&m);
+            scanf("%c",&m);
+            arr[index] = m;
+            index++;
+            printf("tianjiachenggong,dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 2)
         {
