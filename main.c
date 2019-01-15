@@ -4,7 +4,7 @@ int index = 0;
 int main()
 {
 
-    printf("minganzifuguanlixitong");
+    printf("minganzifuguanlixitong\n");
 
     while (1)
     {
@@ -43,6 +43,16 @@ int main()
         }
         if (code == 3)
         {
+            printf("xiansgusuoyouyijingtianjiademinganzifu\n");
+
+            for(int i=0; i < index; i++){
+                printf("%c\n",arr[i]);
+            }
+            printf("dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
         }
         if (code == 4)
         {
